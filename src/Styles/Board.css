@@ -1,0 +1,58 @@
+.Board {
+    display: flex;
+}
+
+.Board__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: calc(100vw - 250px);
+}
+
+.Board__inner {
+    max-width: calc(100vw - 250px);
+    padding: 10px;
+    height: 100%;
+    width: fit-content;
+    overflow-x: auto;
+}
+
+.Board__lists {
+    display: flex;
+    gap: 20px;
+}
+
+.Board__addList {
+    min-width: 300px;
+    height: fit-content;
+    border-radius: 4px;
+    padding: 10px;
+
+    -webkit-box-shadow: 4px 4px 13px 3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 13px 3px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 13px 3px rgba(34, 60, 80, 0.2);
+}
+
+.Board__addList-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.BoardMenu {
+    height: 50px;
+    background: #00000021;
+    flex-shrink: 0;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.BoardMenu__main {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
